@@ -90,4 +90,4 @@ http://127.0.0.1:5001/
 📱 PWA (Progressive Web App) support
 
 ### 🙋‍♂️ Author:
-Made with ❤️ by MO ARIZ
+Made with ❤️ by Sohail Ansari
