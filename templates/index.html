@@ -1,0 +1,22 @@
+Weather Dashboard
+{{ current_time_date }}
+
+{{ city_name if city_name else '' }}
+ Get Weather
+{% if weather %}
+{{ weather.city }}
+Weather Icon
+{{ weather.temperature }}°C
+
+Description: {{ weather.description }}
+
+Humidity: {{ weather.humidity }}%
+
+Wind Speed: {{ weather.wind_speed }} m/s
+
+Pressure: {{ weather.pressure }} hPa
+
+{% elif error %}
+{{ error }}
+
+{% endif %}
